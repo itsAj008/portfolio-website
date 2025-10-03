@@ -2,7 +2,9 @@ import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import { AboutPage, ContactPage, HomePage, ProjectsPage } from "@/pages";
+import { AboutPage, ContactPage, HomePage,
+  //  ProjectsPage 
+  } from "@/pages";
 import { Navbar } from "@/components/_shared";
 
 export const App = () => {
@@ -12,7 +14,7 @@ export const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
+          {/* <Route path="/projects" element={<ProjectsPage />} /> */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
