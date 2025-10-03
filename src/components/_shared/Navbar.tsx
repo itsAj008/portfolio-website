@@ -22,7 +22,7 @@ export const Navbar = () => {
             isActive ? "text-blue-600" : "text-black"
           }
         >
-          Projects
+          Contact Me
         </NavLink>
         {/* <NavLink
           to="/projects"
