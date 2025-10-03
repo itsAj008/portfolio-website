@@ -10,7 +10,7 @@ import { Navbar } from "@/components/_shared";
 export const App = () => {
   return (
     <main className="bg-slate-300/20">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-website">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

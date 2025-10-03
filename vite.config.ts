@@ -6,4 +6,5 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   assetsInclude: ["**/**/*.glb"],
+  base: '/portfolio-website/', // This is crucial for GitHub Pages
 });
