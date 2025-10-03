@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, accenture, siemens, kotak } from "@/assets/images";
+import { accenture, siemens, kotak } from "@/assets/images";
 import {
   car,
   contact,
