@@ -3,3 +3,4 @@ export { SkyModel } from "./SkyModel";
 export { FoxModel } from "./FoxModel";
 export { BirdModel } from "./BirdModel";
 export { PlaneModel } from "./PlaneModel";
+// export { GtModel } from './GtModel1'

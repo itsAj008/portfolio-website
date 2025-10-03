@@ -3,7 +3,11 @@ import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
-import logo from './logo.svg'
+import AJ from './AJ.svg'
+import AJ2 from './AJ2.svg'
+import accenture from './Accenture.png'
+import siemens from './seimens.png'
+import kotak from './kotak.png'
 
 export {
     hero,
@@ -11,5 +15,9 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    AJ,
+    AJ2,
+    accenture,
+    siemens,
+    kotak
 }

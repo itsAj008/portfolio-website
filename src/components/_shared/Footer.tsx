@@ -8,7 +8,7 @@ export const Footer = () => {
 
       <div className="footer-container">
         <p>
-          © 2023 <strong>Ikram Developer</strong>. All rights reserved.
+          © 2025 <strong>AJ Developer</strong>. All rights reserved.
         </p>
 
         <div className="flex gap-3 justify-center items-center">

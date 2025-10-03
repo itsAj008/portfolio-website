@@ -26,6 +26,8 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import zustand from './zustand.svg'
+import reactQuery from './reactQuery.svg'
 
 export {
     css,
@@ -55,5 +57,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    zustand,
+    reactQuery
 }

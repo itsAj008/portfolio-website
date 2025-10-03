@@ -1,10 +1,10 @@
-import { useContact } from "@/hooks";
 import { FormEventHandler } from "react";
 
 interface ContactFormProps {
   handleBlur: () => void;
   handleFocus: () => void;
   handleSubmit: FormEventHandler;
+  formRef: React.RefObject<HTMLFormElement>;  
   isLoading: boolean;
 }
 
@@ -12,9 +12,9 @@ export const ContactForm = ({
   handleBlur,
   handleFocus,
   handleSubmit,
+  formRef,
   isLoading,
 }: ContactFormProps) => {
-  const { formRef } = useContact();
 
   return (
     <section className="flex-1 min-w-[50%] flex flex-col">
@@ -22,7 +22,10 @@ export const ContactForm = ({
 
       <form
         ref={formRef}
-        onSubmit={handleSubmit}
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleSubmit(e); // Pass the form event, not just any event
+        }}
         className="w-full flex flex-col gap-6 mt-14"
       >
         <div className="flex flex-col gap-2">

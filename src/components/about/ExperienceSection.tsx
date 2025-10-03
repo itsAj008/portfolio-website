@@ -23,13 +23,16 @@ export const ExperienceSection = () => {
             <VerticalTimelineElement
               key={exp.company_name}
               date={exp.date}
-              iconStyle={{ background: exp.iconBg }}
+              iconStyle={{
+                background: exp.iconBg,
+                overflow: 'hidden'  // Add overflow to iconStyle
+              }}
               icon={
                 <div className="flex justify-center items-center w-full h-full">
                   <img
                     src={exp.icon}
                     alt={exp.company_name}
-                    className="w-7/12 h-7/12 object-contain"
+                    className="max-w-full max-h-full object-contain"
                   />
                 </div>
               }

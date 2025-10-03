@@ -3,5 +3,7 @@ export const constants = {
     serviceId: import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
     templateId: import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
     publicKey: import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+    notificationTemplateId: import.meta.env.VITE_APP_EMAILJS_NOTIFICATION_TEMPLATE_ID,
   },
 };
+ 

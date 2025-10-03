@@ -2,7 +2,7 @@ import { ContactCanvas, ContactForm } from "@/components/contact";
 import { useContact } from "@/hooks";
 
 export const ContactPage = () => {
-  const { currentAnimation, handleBlur, handleFocus, handleSubmit, isLoading } =
+  const { currentAnimation, handleBlur, handleFocus, handleSubmit, isLoading , formRef} =
     useContact();
 
   return (
@@ -12,6 +12,7 @@ export const ContactPage = () => {
         handleFocus={handleFocus}
         handleSubmit={handleSubmit}
         isLoading={isLoading}
+        formRef={formRef}
       />
       <ContactCanvas currentAnimation={currentAnimation} />
     </div>

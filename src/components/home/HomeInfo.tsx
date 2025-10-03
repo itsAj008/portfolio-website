@@ -12,9 +12,8 @@ export const HomeInfo = ({ currentStage }: HomeInfoProps) => {
     content = (
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
         Hi, I'm
-        <span className="font-semibold mx-2 text-white">Ikram</span>
-        👋
-        <br />A Software Engineer from Pakistan
+        <span className="font-semibold mx-2 text-white">AJ</span>
+        <br />A Software Engineer from India
       </h1>
     );
 

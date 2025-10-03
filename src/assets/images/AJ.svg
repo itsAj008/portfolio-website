@@ -1,0 +1,34 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="48" rx="8.88889" fill="white"/>
+    
+    <!-- Letter A -->
+    <path d="M12.74 30H9.38L15.24 16.6H19.52L25.42 30H22L20.74 27.04H14.04L12.74 30ZM16.44 21.42L15.18 24.34H19.56L18.3 21.42L17.48 19.34H17.26L16.44 21.42Z" fill="url(#paint0_linear_1545_39)"/>
+    
+    <!-- Letter J with glow effect -->
+    <g filter="url(#glow)">
+        <path d="M26.1198 16.6H39.1198V19.3H32.1198V26.8C32.1198 27.68 32.3598 28.34 32.8398 28.78C33.3198 29.22 33.9798 29.44 34.8198 29.44C35.6598 29.44 36.3198 29.22 36.7998 28.78C37.2798 28.34 37.5198 27.68 37.5198 26.8H39.1198C39.1198 28.28 38.6598 29.44 37.7398 30.28C36.8198 31.12 35.5598 31.54 33.9598 31.54C32.3598 31.54 31.0998 31.12 30.1798 30.28C29.2598 29.44 28.7998 28.28 28.7998 26.8V19.3H26.1198V16.6Z" fill="url(#paint1_green_glow)"/>
+    </g>
+    
+    <defs>
+        <!-- Blue gradient for A -->
+        <linearGradient id="paint0_linear_1545_39" x1="8" y1="35.5" x2="25" y2="10.5484" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#989FFF"/>
+            <stop offset="1" stop-color="#29A2FF"/>
+        </linearGradient>
+        
+        <!-- Green gradient for J -->
+        <linearGradient id="paint1_green_glow" x1="26" y1="35.5" x2="40" y2="10.5484" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00FF88"/>
+            <stop offset="1" stop-color="#39FF14"/>
+        </linearGradient>
+        
+        <!-- Glow filter -->
+        <filter id="glow" x="24" y="14" width="18" height="20" filterUnits="userSpaceOnUse">
+            <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+            <feMerge> 
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+</svg>
