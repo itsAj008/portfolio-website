@@ -1,9 +1,9 @@
 import { accenture, siemens, kotak } from "@/assets/images";
 import {
-  car,
+  // car,
   contact,
   css,
-  estate,
+  // estate,
   // express,
   git,
   github,
@@ -15,15 +15,15 @@ import {
   mui,
   nextjs,
   // nodejs,
-  pricewise,
+  // pricewise,
   react,
   reactQuery,
   redux,
   // sass,
-  snapgram,
-  summiz,
+  // snapgram,
+  // summiz,
   tailwindcss,
-  threads,
+  // threads,
   typescript,
   zustand,
 } from "@/assets/icons";
@@ -189,61 +189,61 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/ikramdeveloper",
+    link: "https://github.com/itsAj008",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/ikramdeveloper",
+    link: "https://www.linkedin.com/in/ajay-s-503050254/",
   },
 ];
 
-export const projects = [
-  {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Social Media Website",
-    description:
-      "Developed a social media website where users can upload and comment on their photos",
-    link: "https://github.com/ikramdeveloper/shareme-social-media-website",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Whatsapp Chatbot Apis",
-    description:
-      "Created a whatsapp chatbot backend so help customers in purchasing their required items",
-    link: "https://github.com/ikramdeveloper/ecommerce-app-nodejs-whatsapp-cloud-api",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "JSON Server Deployment",
-    description:
-      "Created json server to store your data online in json format with instructions on how to deploy it to various hosting services",
-    link: "https://github.com/ikramdeveloper/json-server-deploy",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Django & React CRUD Operations",
-    description: "Built a CRUD operations application using Django & React",
-    link: "https://github.com/ikramdeveloper/react-django-app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Video Sharing Website",
-    description:
-      "Developed an online video sharing web application like TikTok where users can sign in and upload their videos",
-    link: "https://github.com/ikramdeveloper/nextjs-tiktik-website",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "Ecommerce App",
-    description:
-      "Built NextJS ecommerce app where customers can purchase electronic items and do payment with card using stripe payment service",
-    link: "https://github.com/ikramdeveloper/nextjs-ecommerce-app",
-  },
-];
+// export const projects = [
+//   {
+//     iconUrl: pricewise,
+//     theme: "btn-back-red",
+//     name: "Social Media Website",
+//     description:
+//       "Developed a social media website where users can upload and comment on their photos",
+//     link: "https://github.com/ikramdeveloper/shareme-social-media-website",
+//   },
+//   {
+//     iconUrl: threads,
+//     theme: "btn-back-green",
+//     name: "Whatsapp Chatbot Apis",
+//     description:
+//       "Created a whatsapp chatbot backend so help customers in purchasing their required items",
+//     link: "https://github.com/ikramdeveloper/ecommerce-app-nodejs-whatsapp-cloud-api",
+//   },
+//   {
+//     iconUrl: car,
+//     theme: "btn-back-blue",
+//     name: "JSON Server Deployment",
+//     description:
+//       "Created json server to store your data online in json format with instructions on how to deploy it to various hosting services",
+//     link: "https://github.com/ikramdeveloper/json-server-deploy",
+//   },
+//   {
+//     iconUrl: snapgram,
+//     theme: "btn-back-pink",
+//     name: "Django & React CRUD Operations",
+//     description: "Built a CRUD operations application using Django & React",
+//     link: "https://github.com/ikramdeveloper/react-django-app",
+//   },
+//   {
+//     iconUrl: estate,
+//     theme: "btn-back-black",
+//     name: "Video Sharing Website",
+//     description:
+//       "Developed an online video sharing web application like TikTok where users can sign in and upload their videos",
+//     link: "https://github.com/ikramdeveloper/nextjs-tiktik-website",
+//   },
+//   {
+//     iconUrl: summiz,
+//     theme: "btn-back-yellow",
+//     name: "Ecommerce App",
+//     description:
+//       "Built NextJS ecommerce app where customers can purchase electronic items and do payment with card using stripe payment service",
+//     link: "https://github.com/ikramdeveloper/nextjs-ecommerce-app",
+//   },
+// ];
