@@ -131,7 +131,7 @@ export const experiences = [
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#f7d9d5ff",
-    date: "March 2020 - April 2021",
+    date: "Oct 2021 - Aug 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -144,7 +144,7 @@ export const experiences = [
     company_name: "Siemens",
     icon: siemens,
     iconBg: "#c2dcedff",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2023 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -157,7 +157,7 @@ export const experiences = [
     company_name: "Kotak Mahindra",
     icon: kotak,
     iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
