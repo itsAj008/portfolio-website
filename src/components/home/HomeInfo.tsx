@@ -33,21 +33,21 @@ export const HomeInfo = ({ currentStage }: HomeInfoProps) => {
     );
   }
 
-  if (currentStage === 3) {
-    content = (
-      <div className="info-box">
-        <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
-        </p>
+  // if (currentStage === 3) {
+  //   content = (
+  //     <div className="info-box">
+  //       <p className="font-medium text-center sm:text-xl">
+  //         Led multiple projects to success over the years. <br /> Curious about
+  //         the impact?
+  //       </p>
 
-        <Link to="/projects" className="neo-brutalism-white neo-btn">
-          Visit my portfolio
-          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-        </Link>
-      </div>
-    );
-  }
+  //       <Link to="/projects" className="neo-brutalism-white neo-btn">
+  //         Visit my portfolio
+  //         <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
+  //       </Link>
+  //     </div>
+  //   );
+  // }
 
   if (currentStage === 4) {
     content = (
